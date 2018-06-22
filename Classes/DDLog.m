@@ -1141,7 +1141,7 @@ static __inline__ __attribute__((__always_inline__)) void _dispatch_queue_label_
         _function = copyFunction ? [function copy] : function;
 
         _line         = line;
-        _tag          = tag;
+        _representationObject          = tag;
         _options      = options;
         _timestamp    = timestamp ?: [NSDate new];
 

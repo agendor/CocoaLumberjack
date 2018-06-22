@@ -838,7 +838,7 @@ typedef NS_OPTIONS(NSInteger, DDLogMessageOptions){
 @property (readonly, nonatomic) NSString *fileName;
 @property (readonly, nonatomic) NSString * __nullable function;
 @property (readonly, nonatomic) NSUInteger line;
-@property (readonly, nonatomic) id __nullable tag;
+@property (readonly, nonatomic) id __nullable representationObject;
 @property (readonly, nonatomic) DDLogMessageOptions options;
 @property (readonly, nonatomic) NSDate *timestamp;
 @property (readonly, nonatomic) NSString *threadID; // ID as it appears in NSLog calculated from the machThreadID
